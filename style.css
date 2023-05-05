@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Poppins", sans-serif;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.head {
+  background-color: #149ddd;
+  text-align: center;
+  line-height: 1;
+  height: 60px;
+  font-size: 13px;
+}
+.main {
+  background-color: black;
+  color: #a8a9b4;
+  padding: 50px;
+  align-items: center;
+}
+.main h1 {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+.main h2 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+img {
+  width: 170px;
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  padding: 40px 70px;
+}
+.about {
+  margin-right: 100px;
+  text-align: justify;
+}
+.info {
+  min-width: 280px;
+}
+
+section h4 {
+  font-weight: 600;
+}
+h4 span {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media i {
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+.bxl-linkedin-square{
+    color: #0e76a8;
+}
+
+
